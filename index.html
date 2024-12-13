@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mensajería Instantánea</title>
+    <style>
+        #mensaje-input {
+            width: 80%;
+            height: 40px;
+            padding: 10px;
+            font-size: 16px;
+        }
+        
+        #mensaje-botón {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        
+        #mensaje-zona {
+            max-height: 300px;
+            overflow-y: auto;
+            background-color: #f0f0f0;
+            padding: 10px;
+            margin-top: 20px;
+        }
+    </style>
+
+</head>
+<body>
+    <h1>Mensajería Instantánea</h1>
+    
+    <form id="mensaje-form">
+        <input type="text" id="mensaje-input" placeholder="Escribe tu mensaje...">
+        <button id="mensaje-botón">Enviar</button>
+    </form>
+    
+    <div id="mensaje-zona"></div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
